@@ -127,7 +127,6 @@ nav {
   padding-top:100px;
 }
 
-
 /* SECTIONS */
 .section { padding: 7rem 3.5rem; position:relative; }
 .section.white { background: var(--white); color: var(--ink); }
@@ -185,13 +184,12 @@ nav {
 .tag:hover { color:var(--ink); border-color:var(--gold); }
 
 .quote-break {
-  text-align:center; padding:5rem 3.5rem;
+  text-align:center;
   background:var(--black); color:#fff;
   position:relative;
-  clip-path: polygon(0 40px, 100% 0, 100% calc(100% - 40px), 0 100%);
-  margin:-1px 0;
-  padding-top:calc(5rem + 40px);
-  padding-bottom:calc(5rem + 40px);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
+  margin:0;
+  padding:5rem 3.5rem calc(5rem + 40px);
 }
 .quote-break p {
   font-size:clamp(1.4rem,3vw,2.5rem); font-weight:300;
@@ -262,7 +260,6 @@ nav {
 </nav>
 
 <!-- HERO -->
-<!-- HERO -->
 <section id="hero">
   <div class="hero-video-bg">
     <iframe
@@ -274,15 +271,18 @@ nav {
     <div style="position:absolute;inset:0;background:rgba(8,9,12,0.52);"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-eyebrow">Polymath · Founder · Yogi · Dravidian · Bio hacker
-</div>
+    <div class="hero-eyebrow">Polymath · Founder · Yogi · Dravidian</div>
     <h1 class="hero-name">
       Entrepreneur,<br>
       investor &amp;<br>
       <span class="accent">alkemist.</span>
     </h1>
-
-
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
 
 <!-- QUOTE 1 -->
 <div class="quote-break">
@@ -297,21 +297,24 @@ nav {
     <h2 class="big-head reveal d1">Building from<br>a different<br><em>baseline.</em></h2>
     <div class="two-col">
       <div>
-        <p class="body-text reveal d1">Daivd is currently scaling his fifth company, <strong>
+        <p class="body-text reveal d1">David is currently scaling his fifth company, <strong>
           <a href="https://wisy.ai" target="_blank" rel="noopener noreferrer" style="color:#888; text-decoration:none;">wisy.ai</a>
         </strong>,
         backed by <a href="https://8vc.com" target="_blank" rel="noopener noreferrer" style="color:#888; text-decoration:none;">8VC</a>,
         <a href="https://www.coca-colacompany.com" target="_blank" rel="noopener noreferrer" style="color:#888; text-decoration:none;">Coca-Cola</a>,
-        and <a href="https://www.kamayventures.com" target="_blank" rel="noopener noreferrer" style="color:#888; text-decoration:none;">Kamay Ventures</a>. His specialty is scaling companies from Seed to Series B, a path he's successfully navigated throughout his career. <br>Previous ventures include Dojo, which focused on enterprise collaboration with partners like 
-<a href="https://nflpa.com" target="_blank">NFLPA</a>, 
-<a href="https://www.fanatics.com" target="_blank">Fanatics</a>, 
-<a href="https://www.toyota.com" target="_blank">Toyota</a>, and 
-<a href="https://www.gm.com" target="_blank">General Motors</a>, leading to the 
-<a href="https://www.goredbirdventures.com" target="_blank">Redbird Ventures</a> fund. 
-Earlier, David was on the leadership team at 
-<a href="https://www.handy.com" target="_blank">Handy</a>, acquired by 
-<a href="https://www.angi.com" target="_blank">Angi</a> 
-in 2018, following two previous startups with successful exits.
+        and <a href="https://www.kamayventures.com" target="_blank" rel="noopener noreferrer" style="color:#888; text-decoration:none;">Kamay Ventures</a>. His specialty is scaling companies from Seed to Series B, a path he's successfully navigated throughout his career.
+        <br><br>
+        Previous ventures include Dojo, which focused on enterprise collaboration with partners like
+        <a href="https://nflpa.com" target="_blank">NFLPA</a>,
+        <a href="https://www.fanatics.com" target="_blank">Fanatics</a>,
+        <a href="https://www.toyota.com" target="_blank">Toyota</a>, and
+        <a href="https://www.gm.com" target="_blank">General Motors</a>, leading to the
+        <a href="https://www.goredbirdventures.com" target="_blank">Redbird Ventures</a> fund.
+        Earlier, David was on the leadership team at
+        <a href="https://www.handy.com" target="_blank">Handy</a>, acquired by
+        <a href="https://www.angi.com" target="_blank">Angi</a>
+        in 2018, following two previous startups with successful exits.
+        </p>
       </div>
       <div>
         <div class="stat-block reveal d2" style="margin-bottom:3rem;">
@@ -343,7 +346,7 @@ in 2018, following two previous startups with successful exits.
       <div>
         <p class="body-text reveal d1">David is an early-stage investor, General Partner at <a href="https://ascendhumanity.com" target="_blank">Ascend Capital</a> and Founding Partner at <a href="https://futurestack.ventures" target="_blank">Future Stack</a> — a human-centric model focused on improving the well-being of individuals and the planet.</p>
         <p class="body-text reveal d1">His investment philosophy centers on <strong>preventing founder burnout</strong>. Having experienced the full venture cycle himself and mentored hundreds of founders, he's committed to helping founders achieve sustainable growth while maintaining physical, mental, and emotional well-being.</p>
-        <p class="body-text reveal d1">David graduated from Plexo Capital's first GPx cohort, a program for emerging fund managers and has advised <strong>500 Startups, a16z's TxO Fund, and <strong>TechStars</strong>.</p>
+        <p class="body-text reveal d1">David graduated from Plexo Capital's first GPx cohort, a program for emerging fund managers and has advised <strong>500 Startups</strong>, <strong>a16z's TxO Fund</strong>, and <strong>TechStars</strong>.</p>
       </div>
       <div class="reveal d2">
         <p style="font-size:10px; font-weight:700; letter-spacing:.25em; text-transform:uppercase; color:var(--light); margin-bottom:1.25rem;">Portfolio</p>
@@ -358,7 +361,7 @@ in 2018, following two previous startups with successful exits.
           <div class="tag-row">
             <span class="tag">Ascend Capital</span><span class="tag">Future Stack</span>
             <span class="tag">Plexo GPx</span><span class="tag">500 Startups</span>
-            <span class="tag">a16z TxO</span><span <span class="tag">TechStars</span>
+            <span class="tag">a16z TxO</span><span class="tag">TechStars</span>
           </div>
         </div>
       </div>
@@ -380,8 +383,7 @@ in 2018, following two previous startups with successful exits.
     <div class="two-col">
       <div>
         <p class="body-text reveal d1">David identifies as a <strong>"Satoshian"</strong> — fully embracing the fundamentals of blockchain including trust, transparency, and privacy.</p>
-        <p class="body-text reveal d1">He believes blockchain is the first technological framework since the Industrial Revolution with the potential to enhance human consciousness on our planet. His diverse experience at the intersection of <strong>AI + Crypto + Culture</strong> his unique perspective on navigating the complexities of DAOs is rooted in his hands-on experience, most notably with the Big Green DAO.</p>
-    
+        <p class="body-text reveal d1">He believes blockchain is the first technological framework since the Industrial Revolution with the potential to enhance human consciousness on our planet. His diverse experience at the intersection of <strong>AI + Crypto + Culture</strong> gives his unique perspective on navigating the complexities of DAOs, rooted in his hands-on experience, most notably with the Big Green DAO.</p>
       </div>
       <div>
         <div class="pull-quote reveal d3">
